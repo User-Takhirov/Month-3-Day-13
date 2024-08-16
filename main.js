@@ -21,3 +21,60 @@
 //   return result;
 // };
 // console.log(x(str, 3));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//bad sozini topish for orqali
+// let str = "badxx";
+// const x = (str) => {
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] == "b" && str[i + 1] == "a" && str[i + 2] == "d") {
+//       return true;
+//     }
+//     return false;
+//   }
+// };
+// console.log(x(str));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//includes orqali bad sozini topish
+// let a = "aksdjlafsbad";
+// const x = (str) => {
+//   return str.includes("bad");
+// };
+// console.log(x(a));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///<i>YaY</i>
+// let str = "i";
+// let str2 = "YaY";
+// const x = (str, str2) => {
+//   return `<${str}>${str2}</${str}>`;
+// };
+// console.log(x(str,str2));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// let str = "lorem";
+// let res = "";
+// const x = (str) => {
+//   if (str.length % 2 == 0) {
+//     res = str.length / 2 - 1;
+//   }
+//   return res;
+// };
+// console.log(x(res));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//chat gpt
+//agar toq harf bolsa ortadan 1 ta harfni olsin juft bolsa 2 tasini
+// let str = "lowrem";
+// let res = "";
+// const x = (str) => {
+//   if (str.length % 2 == 0) {
+//     res = str[str.length / 2 - 1] + str[str.length / 2];
+//   } else {
+//     res = str[Math.floor(str.length / 2)];
+//   }
+//   return res;
+// };
+// console.log(x(str));
